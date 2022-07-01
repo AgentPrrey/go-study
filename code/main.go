@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Worldadsss")
+	bool1 := false
+	if bool1 {
+		fmt.Printf("this value is ture\n")
+	} else {
+		fmt.Printf("this value is false\n")
+	}
 }
