@@ -1,5 +1,9 @@
 package main
 
+import (
+	"code/test"
+)
+
 func main() {
-	测试多返回值函数的错误.TestErr()
+	test.TestErr()
 }
