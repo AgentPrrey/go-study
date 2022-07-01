@@ -1,7 +1,5 @@
 package main
 
-import "code/pkg"
-
 func main() {
-	pkg.TestErr()
+	测试多返回值函数的错误.TestErr()
 }
