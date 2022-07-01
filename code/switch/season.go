@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf(Season(9))
+	fmt.Printf(Season(1))
 }
 func Season(month int) string {
 	switch month {
