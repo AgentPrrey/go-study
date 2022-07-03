@@ -3,7 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	for a := 0; a < 15; a++ {
-		fmt.Printf("Now the time is	 %d\n", a)
+	// 1:
+	for i := 0; i < 15; i++ {
+		fmt.Printf("The counter is at %d\n", i)
+	}
+	// 2:
+	i := 0
+START:
+	fmt.Printf("The counter is at %d\n", i)
+	i++
+	if i < 15 {
+		goto START
 	}
 }
