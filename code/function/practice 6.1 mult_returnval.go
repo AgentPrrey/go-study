@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-var a, b int = 8, 2
+var i, j int = 8, 2
 var x, y, z int
 
 func main() {
-	x, y, z = xyz(a, b)
+	x, y, z = xyz(i, j)
 	look()
-	x, y, z = xyz_2(a, b)
+	x, y, z = xyz_2(i, j)
 	look()
 }
 func look() {
