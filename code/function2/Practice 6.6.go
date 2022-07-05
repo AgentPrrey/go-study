@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var n int
-	fmt.Scanln(&n)
+	//fmt.Scanln(&n)
 	m := factorial(n)
 	fmt.Printf("n=%d,m=%d\n", n, m)
 }
