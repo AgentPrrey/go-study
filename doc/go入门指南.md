@@ -68,6 +68,18 @@ https://github.com/AgentPrrey/go-study/blob/master/code/function2/6.12%20defer_l
 
 (另一种在调试时使用 defer 语句的手法)
 
+## 6.5 内置函数
+不需要进行导入就可以使用的内置函数，有时可以针对不同的类型进行操作
+
+一个简单的列表，由于我不想打出来，所以我给你一个网址
+
+https://learnku.com/docs/the-way-to-go/built-in-function/3603
+
+关于内置函数的列表在这里面
+
+## 6.6. 递归函数
+
+
 ## 关键字
 * package 定义包（1）
 * import 导入包（2）
