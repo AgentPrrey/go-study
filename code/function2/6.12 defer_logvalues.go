@@ -15,3 +15,5 @@ func func1(s string) (n int, err error) {
 func main() {
 	func1("Go")
 }
+
+//输出:Output: 2011/10/04 10:46:11 func1("Go") = 7, EOF

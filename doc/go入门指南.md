@@ -62,7 +62,11 @@ func untrace(s string) { fmt.Println("leaving:", s) }
 ```
 以上是进入和离开的打印信息，显然defer要与leaving匹配
 
-也可以使用 defer 语句来记录函数的参数与返回值
+也可以使用 defer 语句来记录函数的参数与返回值，打印出来
+
+https://github.com/AgentPrrey/go-study/blob/master/code/function2/6.12%20defer_logvalues.go
+
+(另一种在调试时使用 defer 语句的手法)
 
 ## 关键字
 * package 定义包（1）
