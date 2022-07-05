@@ -12,7 +12,7 @@ func main() {
 	look()
 }
 func look() {
-	fmt.Printf("sum = %d,pro = %d,dif = %d\n", x, y, z)
+	fmt.Printf("sum = %d,sub = %d, dif= %d\n", x, y, z)
 }
 func xyz(t1, t2 int) (int, int, int) {
 	return t1 + t2, t1 * t2, t1 - t2
