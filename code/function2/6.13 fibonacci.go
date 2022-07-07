@@ -24,4 +24,5 @@ func fibonacci1(n int) (res int) {
 		res = fibonacci1(n-1) + fibonacci1(n-2)
 	}
 	return
+
 }
