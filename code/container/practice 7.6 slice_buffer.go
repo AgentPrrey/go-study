@@ -1,4 +1,4 @@
-package main
+package container
 
 func main() {
 	buf := [10]int{1, 2, 3, 4, 5}

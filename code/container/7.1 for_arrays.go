@@ -1,8 +1,8 @@
-package main
+package container
 
 import "fmt"
 
-func main() {
+func MAIN1() {
 	var arr1 [5]int
 
 	for i := 0; i < len(arr1); i++ {

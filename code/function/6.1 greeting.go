@@ -1,4 +1,4 @@
-package main
+package function
 
 func main() {
 	println("In main before calling greeting")

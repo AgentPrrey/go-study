@@ -1,4 +1,4 @@
-package main
+package container
 
 const (
 	WIDTH  = 1920
